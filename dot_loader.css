@@ -1,0 +1,179 @@
+body{
+    background-color: black;
+
+}
+#cont{
+    margin: 100px auto auto 500px;
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div{
+    box-sizing: border-box;
+}
+#one{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 7px dotted white;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+#two{
+    height: 50px;
+    width: 50px;
+    background-color:red;
+    border-radius: 50%;
+    border: 7px dotted white;
+    position: absolute;
+    left: 25%;
+    animation-name: move2;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    
+}
+#three{
+    height: 50px;
+    width: 50px;
+    border: 7px dotted white;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    animation-name: move3;
+    animation-duration:3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+}
+#four{
+    height: 50px;
+    width: 50px;
+    border: 7px dotted white;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    animation-name: move4;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move1{
+    0%{
+        top: 0%;
+        left: 0%;
+    }
+    25%{
+        top: 0%;
+        left: 25%;
+        rotate: 120deg;
+    }
+    50%{
+        top:25%;
+        left:25%;
+        rotate: -120deg;
+    }
+    75%{
+        top: 25%;
+        left: 0%;
+        rotate: 120deg;
+    }
+    100%{
+        top: 0%;
+        left: 0%;
+        rotate: -120deg;
+    }
+}
+
+@keyframes move2{
+    0%{
+        top: 0%;
+        left: 25%;
+    }
+    25%{
+        top: 25%;
+        left: 25%;
+        rotate: 120deg;
+    }
+    50%{
+        top:25%;
+        left:0%;
+        rotate: -120deg;
+    }
+    75%{
+        top: 0%;
+        left: 0%;
+        rotate: 120deg;
+    }
+    100%{
+        top: 0%;
+        left: 25%;
+        rotate: -120deg;
+    }
+}
+
+@keyframes move3 {
+    0%{
+        top: 25%;
+        left: 25%;
+    }
+    25%{
+        top: 25%;
+        left: 0%;
+        rotate: 120deg;
+    }
+    50%{
+        top:0%;
+        left:0%;
+        rotate: -120deg;
+    }
+    75%{
+        top: 0%;
+        left: 25%;
+        rotate: 120deg;
+    }
+    100%{
+        top: 25%;
+        left: 25%;
+        rotate: -120deg;
+    }
+}
+
+@keyframes move4{
+    0%{
+        top: 25%;
+        left: 0%;
+        
+    }
+    25%{
+        top: 0%;
+        left: 0%;
+        rotate: 120deg;
+    }
+    50%{
+        top:0%;
+        left:25%;
+        rotate: -120deg;
+    }
+    75%{
+        top: 25%;
+        left: 25%;
+        rotate: 120deg;
+    }
+    100%{
+        top: 25%;
+        left: 0%;
+        rotate: -120deg;
+    }
+}
