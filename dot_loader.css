@@ -1,6 +1,6 @@
 body{
     background-color: black;
-
+    background-color: gray;
 }
 #cont{
     margin: 100px auto auto 500px;
@@ -20,7 +20,8 @@ div{
     width: 50px;
     background-color: red;
     border: 7px dotted white;
-    position: absolute;
+    background-color: rgb(7, 62, 241);
+    border: 7px dotted rgb(15, 239, 209);    position: absolute;
     animation-name: move1;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -32,6 +33,9 @@ div{
     background-color:red;
     border-radius: 50%;
     border: 7px dotted white;
+    background-color:rgb(7, 62, 241);
+    border-radius: 50%;
+    border: 7px dotted rgb(15, 239, 209);
     position: absolute;
     left: 25%;
     animation-name: move2;
@@ -45,6 +49,8 @@ div{
     width: 50px;
     border: 7px dotted white;
     background-color:red;
+    border: 7px dotted rgb(15, 239, 209);
+    background-color:rgb(7, 62, 241);
     border-radius: 50%;
     position: absolute;
     left: 25%;
@@ -60,6 +66,8 @@ div{
     width: 50px;
     border: 7px dotted white;
     background-color:red;
+    border: 7px dotted rgb(15, 239, 209);
+    background-color:rgb(7, 62, 241);
     border-radius: 50%;
     position: absolute;
     top: 25%;
